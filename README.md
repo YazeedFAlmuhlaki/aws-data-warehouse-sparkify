@@ -143,9 +143,6 @@ SONG_DATA='s3://udacity-dend/song-data'
 REGION='us-west-2'
 ```
 
-`dwh.cfg` holds live credentials — add it to `.gitignore` and commit a `dwh.cfg.example`
-with placeholder values instead.
-
 ---
 
 ## Running the Pipeline
