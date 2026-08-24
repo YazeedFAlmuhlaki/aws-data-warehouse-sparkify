@@ -92,8 +92,6 @@ fact-to-dimension joins:
 | `users` | `DISTSTYLE ALL` | `user_id` | Same reasoning — small and joined constantly |
 | `time` | `DISTSTYLE ALL` | `start_time` | Small, and joined on every time-based aggregation |
 
-> Adjust this table if `sql_queries.py` uses a different strategy — it should document
-> what the code actually does.
 
 ---
 
